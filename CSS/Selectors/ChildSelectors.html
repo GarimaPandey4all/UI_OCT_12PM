@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Child Selectors
+        </title>
+
+        <style>
+            ul li:first-child {
+                color: red;
+            }
+            ul li:last-child {
+                color: blue;
+            }
+            ul li:nth-child(3), ul li:nth-child(6)
+            {
+                color: coral;
+            }
+            ul li:first-child::first-letter {
+                color: crimson;
+                font-size: 90px;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+            <li>list item 5</li>
+            <li>list item 6</li>
+            <li>list item 7</li>
+            <li>list item 8</li>
+            <li>list item 9</li>
+            <li>list item 10</li>
+            <li>list item 11</li>
+            <li>list item 12</li>
+            <li>list item 13</li>
+            <li>list item 14</li>
+            <li>list item 15</li>
+        </ul>
+
+    </body>
+</html>

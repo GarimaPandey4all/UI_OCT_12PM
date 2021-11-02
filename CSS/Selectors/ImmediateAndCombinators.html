@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Selectors
+        </title>
+        <style>
+            h2 {
+                color: red;
+            }
+            /* #parent h2 {
+                color: yellow;
+            } */
+            /* Parent's Immediate Child  */
+            #parent > h2 {
+                color: blue;   
+            }
+            .child > h2 {
+                color: pink;
+            }
+
+            /* Parent's Immediate Sibling */
+            #parent + h2 {
+                color: rgb(27, 29, 27);
+            }
+
+            /* Combinators */
+            #parent ~ h2 {
+                color: chocolate;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <!-- section create -->
+        <div id="parent">
+            <h2>This is a Parent heading</h2>
+            <div class="child">
+                <h2>This is a Child heading</h2>
+                <div class="grand-child">
+                    <h2>This is a Grand Child heading</h2>
+                </div>  
+            </div>
+        </div>
+
+        <h2>This is a heading</h2>
+        <h2>This is a heading</h2>
+
+    </body>
+</html>
