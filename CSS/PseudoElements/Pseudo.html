@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Pseudo Elements</title>
+        <style>
+
+            div {
+                width: 30%;
+                border: 2px solid red;
+                padding: 20px;
+            }
+
+            p::before {
+                content: ">>";
+            }
+
+            p::after {
+                content: "Read More";
+                font-size: 24px;
+                color: red;
+                cursor: pointer;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum expedita, necessitatibus nesciunt suscipit accusantium sunt laudantium? Veniam minus dolor tenetur libero dignissimos nemo quibusdam modi. Porro magnam nobis ipsam ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quisquam qui id, nostrum modi soluta impedit quidem voluptatibus blanditiis odio ut similique necessitatibus rerum voluptatem natus? Enim dolorum a excepturi.</p>
+        </div>
+
+    </body>
+</html>
