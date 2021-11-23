@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Absolute + Relative</title>
+        <style>
+
+            body {
+                margin: 0;
+            }
+
+            div {
+                height: 200px;
+                width: 30%;
+                border: 2px solid red;
+            }
+
+            #parent {
+                position: relative;
+            }
+
+            .child {
+                height: 100px;
+                position: absolute;
+                /* top: 150px; */
+                right: 0px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="parent">
+            <div class="child">
+                <h2>This is a child heading</h2>
+            </div>
+        </div>
+
+    </body>
+</html>
