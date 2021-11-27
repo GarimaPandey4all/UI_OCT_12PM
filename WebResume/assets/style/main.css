@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+hr {
+    width: 5%;
+    border: 15px dotted rgb(197, 197, 197);
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+span {
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 100px auto 0;
+    color: #BCCC9A;
+}
+
+h2 {
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #BCCC9A;
+}
+
+h3 {
+    font-size: 20px;
+    color: #C37B89;
+}
+
+p {
+    color: #4e5f2b;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#top-container {
+    background-color:#C37B89;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.title-text {
+    padding: 100px 0;
+}
+
+#middle-container {
+    margin: 100px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: 30px auto;
+}
+
+.skill {
+    width: 50%;
+    /* top right botttom left */
+    /* margin: 10px 20px 40px 60px; */
+    /* top/right/bottom/left */
+    /* margin: 30px; */
+    /* top/bottom right/left */
+    /* margin: 30px 50px; */
+     /* top right/left bottom */
+    margin: 100px auto 120px; 
+    text-align: left;
+}
+
+.top-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 30%;
+}
+
+.middle-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.bottom-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 30%;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 20px;
+}
+
+.contact-message {
+    margin: 40px auto 20px;
+}
+
+.btn {
+    background-color: #C37B89;
+    border-radius: 20px;
+    color: #4e5f2b;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ca5f74;
+    color: #fff;
+}
+
+#bottom-container {
+    background-color:#C37B89;
+    padding: 40px 0 60px;
+}
+
+.footer-link {
+    color: #EAE7C6;
+    margin: 0 20px;
+}
+
+.footer-link:hover {
+    color: #BCCC9A;
+}
+
+.copyright {
+    color: #EAE7C6;
+    padding: 20px 0;
+}
