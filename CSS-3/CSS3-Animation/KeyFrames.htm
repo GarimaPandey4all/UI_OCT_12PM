@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid red;
+        }
+        img {
+            animation-name: anim;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes anim {
+            0% {
+                transform: translate(0px, 0px) rotate(0deg) scale(1, 1);
+            }
+            50% {
+                transform: translate(1200px, 0px) rotateY(0deg) scale(0.01, 0.01);
+            }
+            51% {
+                transform: translate(1200px, 0px) rotateY(180deg) scale(0.01, 0.01);
+            }
+            100% {
+                transform: translate(0px, 0px) rotateY(180deg) scale(1, 1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Key Frames</h1>
+
+    <div>
+        <img src="https://thumbs.gfycat.com/AncientGregariousHarvestmen-size_restricted.gif" alt="">
+    </div>
+
+</body>
+</html>
