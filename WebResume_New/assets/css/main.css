@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    color: #9A0680;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+
+ h3 {
+    font-size: 20px;
+    color: #4C0070;
+    font-family: 'Indie Flower', cursive;
+ }
+
+ hr {
+    width: 4%;
+    border-style: dotted;
+    border-width: 18px;
+    border-bottom: none;
+    border-color: #d3cfcf;
+    margin: 100px auto 120px;
+ }
+
+ a {
+     text-decoration: none;
+     color: #9A0680;
+ }
+
+ p {
+     font-size: 17px;
+     color: #79018C;
+ }
+
+ span {
+     color: #fff;
+ }
+
+ #top-container {
+    background-color: #160040;
+    position: relative;
+ }
+
+ .top-cloud {
+     position: absolute;
+     top: 100px;
+     right: 300px;
+ }
+
+ .bottom-cloud {
+     position: absolute;
+     bottom: 300px;
+     left: 300px;
+ }
+
+ .title-text {
+     padding: 100px 0;
+     color: #ffffff;
+ }
+
+ #middle-container {
+     margin: 100px 0;
+ }
+
+ .intro {
+     width: 30%;
+     margin: 30px auto;
+ }
+
+ .skill {
+     width: 50%;
+     margin: 100px auto 120px;
+     text-align: left;
+ }
+
+ .top-image {
+     width: 30%;
+     float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+ }
+
+ .middle-image {
+    width: 30%;
+    float: right;
+   margin-left: 30px;
+   border-radius: 20px;
+}
+
+.bottom-image {
+    width: 30%;
+    float: left;
+   margin-right: 30px;
+   border-radius: 20px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 20px;
+}
+
+.contact-message {
+    margin: 40px auto 20px;
+}
+
+.btn {
+    background-color: #160040;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #4C0070;
+    color: #fff;
+}
+
+#bottom-container {
+    background-color: #160040;
+    padding: 40px 0 60px;
+}
+
+.footer-link {
+    margin: 0 20px;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+.copyright {
+    padding: 20px 0;
+}
