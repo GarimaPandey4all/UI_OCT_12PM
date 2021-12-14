@@ -1,0 +1,27 @@
+Bootstrap: Twitter
+Bootstrap: Grid(rows and columns) System
+Responsive
+
+Columns = 12
+
+#-Number of columns
+
+>1200px				col-xl-#
+>992px				col-lg-#
+>768px				col-md-#
+>576px				col-sm-#
+<576px->320px		col-#		
+
+
+Step 1. Container/Container-fluid
+Step 2. There will be a row inside the Container/Container-fluid
+Step 3. Then columns will be immediate child of row
+Step 4. Content will be inside columns only
+
+div - container
+
+	div - row
+			
+			div - columns
+			
+					div - content
