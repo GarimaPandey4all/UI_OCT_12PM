@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        
+        <h1>On Blur Event</h1>
+
+        <input type="text" placeholder="Enter Name" onblur="validate(this)">
+
+        <span id="validation"></span>
+
+        <script>
+            function validate(obj)
+            {
+                // alert("Blur Called");
+                obj.style.border = '1px solid red';
+                document.getElementById("validation").innerHTML = 'Please fill out this field';
+            }
+        </script>
+
+    </body>
+</html>

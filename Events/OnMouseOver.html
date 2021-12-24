@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Mouse Over Event</h1>
+
+    <div onmouseover="changeImage(this)" onmouseout="changeImage2(this)">
+        <img src="https://www.cnet.com/a/img/bZaqv6tPvT44-cop4ZL2gG3j5wE=/940x0/2020/01/17/7da55a03-ac5b-4ec1-b59b-6b3c2414e68b/egdt5idw4aittju.jpg" alt="">
+    </div>
+
+    <script>
+        function changeImage(obj)
+        {
+            obj.innerHTML = '<img src="https://images.indianexpress.com/2021/08/what-if-episode-3-tony-stark-1200.jpg" alt="">'
+        }
+
+        function changeImage2(obj)
+        {
+            obj.innerHTML = '<img src="https://www.cnet.com/a/img/bZaqv6tPvT44-cop4ZL2gG3j5wE=/940x0/2020/01/17/7da55a03-ac5b-4ec1-b59b-6b3c2414e68b/egdt5idw4aittju.jpg" alt="">'
+        }
+    </script>
+    
+</body>
+</html>

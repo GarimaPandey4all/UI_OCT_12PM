@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Scroll.css">
+</head>
+<body>
+    
+    <h1>Scroll Event</h1>
+
+    <div id="content">
+        <section id="section_1">
+            <img class="img_1" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+            <img class="img_2" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+        </section>
+
+        <section>
+            <img class="img_1" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+            <img class="img_2" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+        </section>
+
+        <section>
+            <img class="img_1" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+            <img class="img_2" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+        </section>
+
+        <section>
+            <img class="img_1" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+            <img class="img_2" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+        </section>
+
+        <section>
+            <img class="img_1" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+            <img class="img_2" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+        </section>
+
+        <section>
+            <img class="img_1" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+            <img class="img_2" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+        </section>
+
+        <section id="section_2">
+            <img class="img_1" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+            <img class="img_2" src="https://www.redwolf.in/image/catalog/designer-Images/themes/iron-man-artist-image.png" alt="">
+        </section>
+    </div>
+
+    <script>
+        var div_1 = document.getElementById("section_1");
+        var div_2 = document.getElementById("section_2");
+
+        window.addEventListener('load', function(){
+            div_1.className = 'active';
+        });
+
+        window.addEventListener('scroll', function(){
+            //scroll based on windows
+
+            var scrollY = window.scrollY;
+            // console.log(scrollY);
+
+            // if(scrollY > 300)
+            // {
+            //     div_2.className = 'active';
+            // }
+            // else {
+            //     div_2.className = '';
+            // }
+
+            var scrollDiv = scrollY - div_2.offsetTop;
+            console.log(scrollDiv);
+
+            //scroll based on particular div
+
+            if(scrollDiv > -950)
+            {
+                div_2.className = 'active';
+            }
+            else {
+                div_2.className = '';
+            }
+        });
+
+    </script>
+
+</body>
+</html>
