@@ -1,0 +1,12 @@
+[
+    {
+        "name": "NIIT",
+        "numberofEmp": 5000,
+        "CEO": "Sapnesh Lalla"
+    },
+    {
+        "name": "Google",
+        "numberofEmp": 50000,
+        "CEO": "Sundar Pichai"
+    }
+]

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="ajaxFunction()">Ajax Call</button>
+
+    <h3 id="demo"></h3>
+
+    <script>
+        function ajaxFunction()
+        {
+            var ajax = new XMLHttpRequest();
+            ajax.onreadystatechange = function()
+            {
+                console.log(this.readyState, this.status);
+                if(this.readyState == 4 && this.status == 200)
+                {
+                    alert(this.responseText);
+                    document.getElementById("demo").innerHTML = this.responseText;
+                }
+            }
+
+            ajax.open('get', 'test.txt');
+            ajax.send();
+        }
+    </script>
+    
+</body>
+</html>
